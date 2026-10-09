@@ -633,7 +633,8 @@
                 "f6452a75-df39-405f-a70c-35036437cad8",
                 "0887f3db-b257-4025-b311-7771bb5cd4e7",
                 "ecf381d4-29a5-47c4-8fff-197105bdd53e",
-                "0b00a29a-c769-4661-8a8a-a0029d5c62c9"
+                "0b00a29a-c769-4661-8a8a-a0029d5c62c9",
+                "d5323ca9-a66f-41bf-a896-8d2cd357dea4"
               ],
               "containedElements": [
                 "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
@@ -2064,6 +2065,54 @@
                 "y": 50
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF6 Solicitudes de inventario con JWT",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "692e0502-eb95-41ba-8add-c13d74c6bd26"
+              ]
+            },
+            "labels": [
+              "DF6 Solicitudes de inventario con JWT"
+            ],
+            "id": "d5323ca9-a66f-41bf-a896-8d2cd357dea4",
+            "source": {
+              "x": 410,
+              "y": 480
+            },
+            "target": {
+              "cell": "7db01c84-b6e5-45b5-a80b-0f0c75915c63",
+              "port": "fb68a12b-dbf2-471f-9317-9dc2acceac05"
+            }
           }
         ],
         "description": "almacenes de datos, flujos y fronteras de confianza."
