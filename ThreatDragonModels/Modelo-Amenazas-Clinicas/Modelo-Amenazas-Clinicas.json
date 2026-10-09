@@ -598,7 +598,8 @@
                 "65c052d1-53ad-4b04-befb-c503797057b4",
                 "0887f3db-b257-4025-b311-7771bb5cd4e7",
                 "ecf381d4-29a5-47c4-8fff-197105bdd53e",
-                "d5323ca9-a66f-41bf-a896-8d2cd357dea4"
+                "d5323ca9-a66f-41bf-a896-8d2cd357dea4",
+                "db52ec0c-7ba2-4341-93de-592b53f37f60"
               ],
               "containedElements": [
                 "3ac88d29-09e0-4fd8-b0a0-d418fecbd9ef",
@@ -945,8 +946,8 @@
           },
           {
             "position": {
-              "x": 70,
-              "y": 623.0000000000005
+              "x": 84.99999999999935,
+              "y": 653.0000000000005
             },
             "size": {
               "width": 220,
@@ -2155,6 +2156,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "773578f7-b748-4ecb-bbf6-ab022aa20b3f",
                 "692e0502-eb95-41ba-8add-c13d74c6bd26"
               ]
             },
@@ -2163,13 +2165,19 @@
             ],
             "id": "db52ec0c-7ba2-4341-93de-592b53f37f60",
             "source": {
-              "x": 180,
-              "y": 780
+              "cell": "9c1de190-685a-4628-b2cf-7a252692d61c",
+              "port": "bd577cbc-0e75-4771-b00d-71171308884d"
             },
             "target": {
               "cell": "7db01c84-b6e5-45b5-a80b-0f0c75915c63",
               "port": "bc2aaf1c-1e1b-4305-b4a5-36cf80386833"
-            }
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 880
+              }
+            ]
           }
         ],
         "description": "almacenes de datos, flujos y fronteras de confianza."
