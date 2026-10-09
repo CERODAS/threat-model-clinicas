@@ -2527,7 +2527,8 @@
                 "1959b5e3-1b2a-42b2-a292-3300e978ea5b",
                 "6ad97890-88bd-438c-816f-60299802e83f",
                 "7ddb1814-1ede-4376-880f-568c175d424f",
-                "97b5bc57-c6e9-4e3c-82f4-b9da386d766c"
+                "97b5bc57-c6e9-4e3c-82f4-b9da386d766c",
+                "7a9651d2-eacf-469f-844a-0de658d9ad04"
               ],
               "containedElements": [
                 "053f2ffb-383f-4759-9a3d-beb36595b396",
@@ -2564,7 +2565,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "6ad97890-88bd-438c-816f-60299802e83f"
+                "6ad97890-88bd-438c-816f-60299802e83f",
+                "7a9651d2-eacf-469f-844a-0de658d9ad04"
               ],
               "containedElements": [
                 "597969fe-77e6-49d2-b7fd-ddf81771666b"
@@ -3936,6 +3938,61 @@
               {
                 "x": 310,
                 "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF2.6 Consulta de rol y estado",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f7ac952f-2356-4d99-b7bf-68637721f7a6",
+                "dd89a5d1-2fb3-4441-a5b8-ec0766c76a28"
+              ]
+            },
+            "labels": [
+              "DF2.6 Consulta de rol y estado"
+            ],
+            "id": "7a9651d2-eacf-469f-844a-0de658d9ad04",
+            "source": {
+              "cell": "38d5f51b-b209-4433-8353-18b7bffd40cb",
+              "port": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+            },
+            "target": {
+              "cell": "597969fe-77e6-49d2-b7fd-ddf81771666b",
+              "port": "4d4648a4-b7a4-4910-a794-bb0cce237aa4"
+            },
+            "vertices": [
+              {
+                "x": 790,
+                "y": 400
               }
             ]
           }
