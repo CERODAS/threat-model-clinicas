@@ -568,7 +568,1212 @@
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 45,
+              "y": 10.00000000000125
+            },
+            "size": {
+              "width": 290,
+              "height": 390
+            },
+            "attrs": {
+              "label": {
+                "text": "B1 Estacion del usuario"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "773578f7-b748-4ecb-bbf6-ab022aa20b3f",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "B1 Estacion del usuario",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "3ac88d29-09e0-4fd8-b0a0-d418fecbd9ef",
+                "9c1de190-685a-4628-b2cf-7a252692d61c"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 425,
+              "y": 10.00000000000125
+            },
+            "size": {
+              "width": 240,
+              "height": 770
+            },
+            "attrs": {
+              "label": {
+                "text": "B2 Servidor de aplicacion"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "692e0502-eb95-41ba-8add-c13d74c6bd26",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "B2 Servidor de aplicacion",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
+                "b4c63a4d-c064-49aa-baf3-c57b594a23f6",
+                "74e932da-cb41-4ce0-bbb0-51ca1553d5a3",
+                "7db01c84-b6e5-45b5-a80b-0f0c75915c63"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 750,
+              "y": 10.00000000000125
+            },
+            "size": {
+              "width": 220,
+              "height": 350
+            },
+            "attrs": {
+              "label": {
+                "text": "B3 Capa de datos"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "67f85556-7665-4a58-bf5e-daedee9360e9",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "B3 Capa de datos",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "62b8a9e4-b1d5-42e5-af8c-4f0ffd846d3f",
+                "10e4895f-f47e-4720-ad8f-2a87370f1210"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 1070,
+              "y": 8.00000000000017
+            },
+            "size": {
+              "width": 310,
+              "height": 220
+            },
+            "attrs": {
+              "label": {
+                "text": "B4 Servicio externo"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "0c4e96d7-1f13-4445-a9a3-9386d0c0faad",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "B4 Servicio externo",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "4219ded0-ca5d-47e7-9673-008a7126fe89"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 90,
+              "y": 55.000000000000156
+            },
+            "size": {
+              "width": 200,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "E1 Personal de la clinica"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "171829ea-f7df-4d7c-a75a-90006d39e384"
+                },
+                {
+                  "group": "right",
+                  "id": "ad32e466-8a92-410e-a5b3-4208e10e574d"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bd577cbc-0e75-4771-b00d-71171308884d"
+                },
+                {
+                  "group": "left",
+                  "id": "2f42db7f-08eb-4fba-bbc0-2ce81a0b6c7c"
+                }
+              ]
+            },
+            "id": "3ac88d29-09e0-4fd8-b0a0-d418fecbd9ef",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "E1 Personal de la clinica",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1125,
+              "y": 55.000000000000156
+            },
+            "size": {
+              "width": 200,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "E2 Servidor SMTP"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "171829ea-f7df-4d7c-a75a-90006d39e384"
+                },
+                {
+                  "group": "right",
+                  "id": "ad32e466-8a92-410e-a5b3-4208e10e574d"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bd577cbc-0e75-4771-b00d-71171308884d"
+                },
+                {
+                  "group": "left",
+                  "id": "2f42db7f-08eb-4fba-bbc0-2ce81a0b6c7c"
+                }
+              ]
+            },
+            "id": "4219ded0-ca5d-47e7-9673-008a7126fe89",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "E2 Servidor SMTP",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 80,
+              "y": 228.00000000000017
+            },
+            "size": {
+              "width": 220,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "E3 Escaner de codigo de barras"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "171829ea-f7df-4d7c-a75a-90006d39e384"
+                },
+                {
+                  "group": "right",
+                  "id": "ad32e466-8a92-410e-a5b3-4208e10e574d"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bd577cbc-0e75-4771-b00d-71171308884d"
+                },
+                {
+                  "group": "left",
+                  "id": "2f42db7f-08eb-4fba-bbc0-2ce81a0b6c7c"
+                }
+              ]
+            },
+            "id": "9c1de190-685a-4628-b2cf-7a252692d61c",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "E3 Escaner de codigo de barras",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 455,
+              "y": 40.000000000000156
+            },
+            "size": {
+              "width": 180,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "P1 Autenticacion \ny \ngestion de usuarios"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "50ecf846-61d3-4ffe-bd74-99009ae587f4"
+                },
+                {
+                  "group": "right",
+                  "id": "c8f5705f-e818-4664-89ec-3fdb155d0d54"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bc2aaf1c-1e1b-4305-b4a5-36cf80386833"
+                },
+                {
+                  "group": "left",
+                  "id": "fb68a12b-dbf2-471f-9317-9dc2acceac05"
+                }
+              ]
+            },
+            "id": "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Process",
+              "name": "P1 Autenticacion \ny \ngestion de usuarios",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 455,
+              "y": 208.00000000000017
+            },
+            "size": {
+              "width": 180,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "P2 Gestion de \npacientes"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "50ecf846-61d3-4ffe-bd74-99009ae587f4"
+                },
+                {
+                  "group": "right",
+                  "id": "c8f5705f-e818-4664-89ec-3fdb155d0d54"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bc2aaf1c-1e1b-4305-b4a5-36cf80386833"
+                },
+                {
+                  "group": "left",
+                  "id": "fb68a12b-dbf2-471f-9317-9dc2acceac05"
+                }
+              ]
+            },
+            "id": "b4c63a4d-c064-49aa-baf3-c57b594a23f6",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "P2 Gestion de \npacientes",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 460,
+              "y": 393.0000000000004
+            },
+            "size": {
+              "width": 170,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "P3 Gestion de citas"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "50ecf846-61d3-4ffe-bd74-99009ae587f4"
+                },
+                {
+                  "group": "right",
+                  "id": "c8f5705f-e818-4664-89ec-3fdb155d0d54"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bc2aaf1c-1e1b-4305-b4a5-36cf80386833"
+                },
+                {
+                  "group": "left",
+                  "id": "fb68a12b-dbf2-471f-9317-9dc2acceac05"
+                }
+              ]
+            },
+            "id": "74e932da-cb41-4ce0-bbb0-51ca1553d5a3",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Process",
+              "name": "P3 Gestion de citas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 480,
+              "y": 588.0000000000003
+            },
+            "size": {
+              "width": 130,
+              "height": 150
+            },
+            "attrs": {
+              "text": {
+                "text": "P4 Gestion de \ninventario medico"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "50ecf846-61d3-4ffe-bd74-99009ae587f4"
+                },
+                {
+                  "group": "right",
+                  "id": "c8f5705f-e818-4664-89ec-3fdb155d0d54"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bc2aaf1c-1e1b-4305-b4a5-36cf80386833"
+                },
+                {
+                  "group": "left",
+                  "id": "fb68a12b-dbf2-471f-9317-9dc2acceac05"
+                }
+              ]
+            },
+            "id": "7db01c84-b6e5-45b5-a80b-0f0c75915c63",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Process",
+              "name": "P4 Gestion de \ninventario medico",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 790,
+              "y": 70.00000000000016
+            },
+            "size": {
+              "width": 140,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "D1 PostgreSQL"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "bbd2e9a1-2482-41c9-8f50-d45fcd421ae4"
+                },
+                {
+                  "group": "right",
+                  "id": "db7294d0-f665-432d-970f-ef49a574155b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "03f31aed-dbc0-476b-8c03-6072e385f1c5"
+                },
+                {
+                  "group": "left",
+                  "id": "bac8c21a-25be-4dc6-a81c-4429707ccf01"
+                }
+              ]
+            },
+            "id": "62b8a9e4-b1d5-42e5-af8c-4f0ffd846d3f",
+            "zIndex": 8,
+            "data": {
+              "type": "tm.Store",
+              "name": "D1 PostgreSQL",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 785,
+              "y": 238.00000000000017
+            },
+            "size": {
+              "width": 150,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "D2 Logs y respaldos"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "bbd2e9a1-2482-41c9-8f50-d45fcd421ae4"
+                },
+                {
+                  "group": "right",
+                  "id": "db7294d0-f665-432d-970f-ef49a574155b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "03f31aed-dbc0-476b-8c03-6072e385f1c5"
+                },
+                {
+                  "group": "left",
+                  "id": "bac8c21a-25be-4dc6-a81c-4429707ccf01"
+                }
+              ]
+            },
+            "id": "10e4895f-f47e-4720-ad8f-2a87370f1210",
+            "zIndex": 9,
+            "data": {
+              "type": "tm.Store",
+              "name": "D2 Logs y respaldos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          }
+        ],
         "description": "almacenes de datos, flujos y fronteras de confianza."
       },
       {
