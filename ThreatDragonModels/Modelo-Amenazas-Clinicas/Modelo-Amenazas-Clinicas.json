@@ -2481,8 +2481,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "4f1de292-4b49-4dbd-a0e2-a5eee4934bce",
             "zIndex": -1,
+            "id": "4f1de292-4b49-4dbd-a0e2-a5eee4934bce",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "B1 Estacion del usuario",
@@ -2516,8 +2516,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "f7ac952f-2356-4d99-b7bf-68637721f7a6",
             "zIndex": -1,
+            "id": "f7ac952f-2356-4d99-b7bf-68637721f7a6",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "B2 Servidor de aplicacion",
@@ -2532,7 +2532,8 @@
                 "7a9651d2-eacf-469f-844a-0de658d9ad04",
                 "2539caaa-3b66-4aad-a354-db6c84dd727c",
                 "a42e92f4-6dd7-4758-ad7e-1a4ea6bdece3",
-                "23d2d6f1-f50e-4557-baa2-f7126f02053d"
+                "23d2d6f1-f50e-4557-baa2-f7126f02053d",
+                "8d5006fe-ed8e-47e1-92b1-707bd4bb1792"
               ],
               "containedElements": [
                 "053f2ffb-383f-4759-9a3d-beb36595b396",
@@ -2560,8 +2561,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "dd89a5d1-2fb3-4441-a5b8-ec0766c76a28",
             "zIndex": -1,
+            "id": "dd89a5d1-2fb3-4441-a5b8-ec0766c76a28",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "B3 Capa de datos",
@@ -2594,8 +2595,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "500686cc-b556-4369-b23f-ae6c115749d0",
             "zIndex": -1,
+            "id": "500686cc-b556-4369-b23f-ae6c115749d0",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "B4 Servicio externo",
@@ -2631,6 +2632,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2714,7 +2716,6 @@
               ]
             },
             "id": "7a3b894c-b009-4706-8d4b-0b0277e5063e",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "E1 Personal de\n la clinica",
@@ -2748,6 +2749,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2831,7 +2833,6 @@
               ]
             },
             "id": "b97c0ab8-fdb8-414a-abff-f7dc5a05d582",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "E2 Servidor SMTP",
@@ -2865,6 +2866,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2948,7 +2950,6 @@
               ]
             },
             "id": "053f2ffb-383f-4759-9a3d-beb36595b396",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "P1.1 Validar \ncredenciales",
@@ -2985,6 +2986,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -3068,7 +3070,6 @@
               ]
             },
             "id": "c9673639-82e8-4399-b3c3-7fa6b18a6c24",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "P1.2 Emitir \ntoken JWT",
@@ -3105,6 +3106,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -3188,7 +3190,6 @@
               ]
             },
             "id": "38d5f51b-b209-4433-8353-18b7bffd40cb",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "P1.3 Verificar JWT \ny rol (RBAC)",
@@ -3225,6 +3226,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -3308,7 +3310,6 @@
               ]
             },
             "id": "64819fd1-8c0a-468a-b540-dc4b0ef42442",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "P1.4 Alta y administra\ncion de usuarios",
@@ -3345,6 +3346,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -3428,7 +3430,6 @@
               ]
             },
             "id": "83681c06-3f46-4bdc-a5bc-31423a74c594",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "P1.5 Generar y enviar\n password temporal",
@@ -3465,6 +3466,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -3548,7 +3550,6 @@
               ]
             },
             "id": "6fc3b005-740e-4009-b647-a803c1d49ce3",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
               "name": "P1.6 Cambio \nde password",
@@ -3588,6 +3589,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -3671,7 +3673,6 @@
               ]
             },
             "id": "597969fe-77e6-49d2-b7fd-ddf81771666b",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "D1.1 Tabla de usuarios\n (hash, rol, estado)",
@@ -4251,7 +4252,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "f7ac952f-2356-4d99-b7bf-68637721f7a6"
+              ]
             },
             "labels": [
               "DF2.11 Clave temporal y nueva password"
@@ -4262,238 +4265,8 @@
               "y": 600
             },
             "target": {
-              "x": 350,
-              "y": 800
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+              "cell": "6fc3b005-740e-4009-b647-a803c1d49ce3",
+              "port": "5312fa15-f8e4-426d-babb-a524f23d967b"
             }
           }
         ],
