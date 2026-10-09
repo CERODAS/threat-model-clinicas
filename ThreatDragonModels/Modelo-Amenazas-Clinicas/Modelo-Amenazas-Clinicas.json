@@ -571,8 +571,8 @@
         "cells": [
           {
             "position": {
-              "x": 45,
-              "y": 10.00000000000125
+              "x": 75,
+              "y": 55.00000000000017
             },
             "size": {
               "width": 290,
@@ -585,15 +585,18 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "773578f7-b748-4ecb-bbf6-ab022aa20b3f",
             "zIndex": -1,
+            "id": "773578f7-b748-4ecb-bbf6-ab022aa20b3f",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "B1 Estacion del usuario",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
+              "crossingFlows": [
+                "f6452a75-df39-405f-a70c-35036437cad8",
+                "65c052d1-53ad-4b04-befb-c503797057b4"
+              ],
               "containedElements": [
                 "3ac88d29-09e0-4fd8-b0a0-d418fecbd9ef",
                 "9c1de190-685a-4628-b2cf-7a252692d61c"
@@ -602,8 +605,8 @@
           },
           {
             "position": {
-              "x": 425,
-              "y": 10.00000000000125
+              "x": 620,
+              "y": 55.00000000000017
             },
             "size": {
               "width": 240,
@@ -616,15 +619,17 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "692e0502-eb95-41ba-8add-c13d74c6bd26",
             "zIndex": -1,
+            "id": "692e0502-eb95-41ba-8add-c13d74c6bd26",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "B2 Servidor de aplicacion",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
+              "crossingFlows": [
+                "f6452a75-df39-405f-a70c-35036437cad8"
+              ],
               "containedElements": [
                 "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
                 "b4c63a4d-c064-49aa-baf3-c57b594a23f6",
@@ -635,8 +640,8 @@
           },
           {
             "position": {
-              "x": 750,
-              "y": 10.00000000000125
+              "x": 1080,
+              "y": 55.00000000000017
             },
             "size": {
               "width": 220,
@@ -649,8 +654,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "67f85556-7665-4a58-bf5e-daedee9360e9",
             "zIndex": -1,
+            "id": "67f85556-7665-4a58-bf5e-daedee9360e9",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "B3 Capa de datos",
@@ -666,8 +671,8 @@
           },
           {
             "position": {
-              "x": 1070,
-              "y": 8.00000000000017
+              "x": 1460,
+              "y": 55.00000000000017
             },
             "size": {
               "width": 310,
@@ -680,8 +685,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "0c4e96d7-1f13-4445-a9a3-9386d0c0faad",
             "zIndex": -1,
+            "id": "0c4e96d7-1f13-4445-a9a3-9386d0c0faad",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "B4 Servicio externo",
@@ -696,8 +701,8 @@
           },
           {
             "position": {
-              "x": 90,
-              "y": 55.000000000000156
+              "x": 120,
+              "y": 105.00000000000016
             },
             "size": {
               "width": 200,
@@ -715,6 +720,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -798,7 +804,6 @@
               ]
             },
             "id": "3ac88d29-09e0-4fd8-b0a0-d418fecbd9ef",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "E1 Personal de la clinica",
@@ -813,8 +818,8 @@
           },
           {
             "position": {
-              "x": 1125,
-              "y": 55.000000000000156
+              "x": 1515,
+              "y": 95.00000000000016
             },
             "size": {
               "width": 200,
@@ -832,6 +837,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -915,7 +921,6 @@
               ]
             },
             "id": "4219ded0-ca5d-47e7-9673-008a7126fe89",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "E2 Servidor SMTP",
@@ -930,8 +935,8 @@
           },
           {
             "position": {
-              "x": 80,
-              "y": 228.00000000000017
+              "x": 110,
+              "y": 278.00000000000017
             },
             "size": {
               "width": 220,
@@ -949,6 +954,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1032,7 +1038,6 @@
               ]
             },
             "id": "9c1de190-685a-4628-b2cf-7a252692d61c",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "E3 Escaner de codigo de barras",
@@ -1047,8 +1052,8 @@
           },
           {
             "position": {
-              "x": 455,
-              "y": 40.000000000000156
+              "x": 650,
+              "y": 90.00000000000016
             },
             "size": {
               "width": 180,
@@ -1066,6 +1071,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -1149,7 +1155,6 @@
               ]
             },
             "id": "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "P1 Autenticacion \ny \ngestion de usuarios",
@@ -1167,8 +1172,8 @@
           },
           {
             "position": {
-              "x": 455,
-              "y": 208.00000000000017
+              "x": 645,
+              "y": 258.00000000000017
             },
             "size": {
               "width": 180,
@@ -1186,6 +1191,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -1269,7 +1275,6 @@
               ]
             },
             "id": "b4c63a4d-c064-49aa-baf3-c57b594a23f6",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "P2 Gestion de \npacientes",
@@ -1287,8 +1292,8 @@
           },
           {
             "position": {
-              "x": 460,
-              "y": 393.0000000000004
+              "x": 650,
+              "y": 443.0000000000004
             },
             "size": {
               "width": 170,
@@ -1306,6 +1311,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -1389,7 +1395,6 @@
               ]
             },
             "id": "74e932da-cb41-4ce0-bbb0-51ca1553d5a3",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "P3 Gestion de citas",
@@ -1407,8 +1412,8 @@
           },
           {
             "position": {
-              "x": 480,
-              "y": 588.0000000000003
+              "x": 670,
+              "y": 638.0000000000003
             },
             "size": {
               "width": 130,
@@ -1426,6 +1431,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -1509,7 +1515,6 @@
               ]
             },
             "id": "7db01c84-b6e5-45b5-a80b-0f0c75915c63",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "P4 Gestion de \ninventario medico",
@@ -1527,8 +1532,8 @@
           },
           {
             "position": {
-              "x": 790,
-              "y": 70.00000000000016
+              "x": 1120,
+              "y": 110.00000000000017
             },
             "size": {
               "width": 140,
@@ -1549,6 +1554,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -1632,7 +1638,6 @@
               ]
             },
             "id": "62b8a9e4-b1d5-42e5-af8c-4f0ffd846d3f",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "D1 PostgreSQL",
@@ -1651,8 +1656,8 @@
           },
           {
             "position": {
-              "x": 785,
-              "y": 238.00000000000017
+              "x": 1115,
+              "y": 278.00000000000017
             },
             "size": {
               "width": 150,
@@ -1673,6 +1678,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1756,7 +1762,6 @@
               ]
             },
             "id": "10e4895f-f47e-4720-ad8f-2a87370f1210",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "D2 Logs y respaldos",
@@ -1771,6 +1776,113 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF1 Credenciales",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "773578f7-b748-4ecb-bbf6-ab022aa20b3f",
+                "692e0502-eb95-41ba-8add-c13d74c6bd26"
+              ]
+            },
+            "labels": [
+              "DF1 Credenciales"
+            ],
+            "id": "f6452a75-df39-405f-a70c-35036437cad8",
+            "source": {
+              "cell": "3ac88d29-09e0-4fd8-b0a0-d418fecbd9ef",
+              "port": "ad32e466-8a92-410e-a5b3-4208e10e574d"
+            },
+            "target": {
+              "cell": "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
+              "port": "fb68a12b-dbf2-471f-9317-9dc2acceac05"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 120
+              },
+              {
+                "x": 550,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF2 Token JWT",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "773578f7-b748-4ecb-bbf6-ab022aa20b3f"
+              ]
+            },
+            "labels": [
+              "DF2 Token JWT"
+            ],
+            "id": "65c052d1-53ad-4b04-befb-c503797057b4",
+            "source": {
+              "x": 650,
+              "y": 160
+            },
+            "target": {
+              "cell": "3ac88d29-09e0-4fd8-b0a0-d418fecbd9ef",
+              "port": "ad32e466-8a92-410e-a5b3-4208e10e574d"
             }
           }
         ],
