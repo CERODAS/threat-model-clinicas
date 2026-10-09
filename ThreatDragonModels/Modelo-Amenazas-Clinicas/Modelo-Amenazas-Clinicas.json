@@ -675,7 +675,8 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "8bf6df4a-1a3c-497b-b803-fb203ea77d90",
-                "f6793b3d-c577-4754-9190-8d15eae422d6"
+                "f6793b3d-c577-4754-9190-8d15eae422d6",
+                "4c20ae46-c090-4daa-8eb6-2947c7c48ca5"
               ],
               "containedElements": [
                 "62b8a9e4-b1d5-42e5-af8c-4f0ffd846d3f",
@@ -2293,6 +2294,54 @@
                 "y": 260
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF10 Citas (lectura/escritura)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "67f85556-7665-4a58-bf5e-daedee9360e9"
+              ]
+            },
+            "labels": [
+              "DF10 Citas (lectura/escritura)"
+            ],
+            "id": "4c20ae46-c090-4daa-8eb6-2947c7c48ca5",
+            "source": {
+              "x": 910,
+              "y": 400
+            },
+            "target": {
+              "cell": "62b8a9e4-b1d5-42e5-af8c-4f0ffd846d3f",
+              "port": "bac8c21a-25be-4dc6-a81c-4429707ccf01"
+            }
           }
         ],
         "description": "almacenes de datos, flujos y fronteras de confianza."
