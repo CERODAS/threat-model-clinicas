@@ -640,7 +640,8 @@
                 "db52ec0c-7ba2-4341-93de-592b53f37f60",
                 "8bf6df4a-1a3c-497b-b803-fb203ea77d90",
                 "f6793b3d-c577-4754-9190-8d15eae422d6",
-                "4c20ae46-c090-4daa-8eb6-2947c7c48ca5"
+                "4c20ae46-c090-4daa-8eb6-2947c7c48ca5",
+                "23d23de0-eb89-4789-9409-689332e32980"
               ],
               "containedElements": [
                 "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
@@ -2384,6 +2385,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "692e0502-eb95-41ba-8add-c13d74c6bd26",
                 "67f85556-7665-4a58-bf5e-daedee9360e9"
               ]
             },
@@ -2392,13 +2394,19 @@
             ],
             "id": "23d23de0-eb89-4789-9409-689332e32980",
             "source": {
-              "x": 1010,
-              "y": 573
+              "cell": "7db01c84-b6e5-45b5-a80b-0f0c75915c63",
+              "port": "c8f5705f-e818-4664-89ec-3fdb155d0d54"
             },
             "target": {
               "cell": "62b8a9e4-b1d5-42e5-af8c-4f0ffd846d3f",
               "port": "03f31aed-dbc0-476b-8c03-6072e385f1c5"
-            }
+            },
+            "vertices": [
+              {
+                "x": 1150,
+                "y": 380
+              }
+            ]
           }
         ],
         "description": "almacenes de datos, flujos y fronteras de confianza."
