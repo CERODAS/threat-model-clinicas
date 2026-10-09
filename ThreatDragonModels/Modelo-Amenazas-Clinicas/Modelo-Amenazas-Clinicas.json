@@ -631,7 +631,8 @@
               "crossingFlows": [
                 "f6452a75-df39-405f-a70c-35036437cad8",
                 "0887f3db-b257-4025-b311-7771bb5cd4e7",
-                "0b00a29a-c769-4661-8a8a-a0029d5c62c9"
+                "0b00a29a-c769-4661-8a8a-a0029d5c62c9",
+                "ecf381d4-29a5-47c4-8fff-197105bdd53e"
               ],
               "containedElements": [
                 "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
@@ -707,7 +708,7 @@
           {
             "position": {
               "x": 120,
-              "y": 105.00000000000017
+              "y": 115.00000000000017
             },
             "size": {
               "width": 200,
@@ -819,6 +820,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2039,7 +2047,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "692e0502-eb95-41ba-8add-c13d74c6bd26"
+              ]
             },
             "labels": [
               "Data Flow"
@@ -2047,11 +2057,11 @@
             "id": "ecf381d4-29a5-47c4-8fff-197105bdd53e",
             "source": {
               "x": 220,
-              "y": 210
+              "y": 200
             },
             "target": {
-              "x": 522,
-              "y": 485
+              "cell": "74e932da-cb41-4ce0-bbb0-51ca1553d5a3",
+              "port": "fb68a12b-dbf2-471f-9317-9dc2acceac05"
             }
           }
         ],
