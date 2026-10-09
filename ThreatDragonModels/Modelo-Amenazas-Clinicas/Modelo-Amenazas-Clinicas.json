@@ -21,7 +21,7 @@
         "cells": [
           {
             "position": {
-              "x": 80,
+              "x": 40,
               "y": 130
             },
             "size": {
@@ -35,15 +35,17 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "c9a58e69-6c99-4bd6-8f8a-46e6428cc8f5",
             "zIndex": -1,
+            "id": "c9a58e69-6c99-4bd6-8f8a-46e6428cc8f5",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "B1 Red local de la clinica",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
+              "crossingFlows": [
+                "802b1e17-9acb-4798-8968-d7c5b7b01918"
+              ],
               "containedElements": [
                 "1e0c8b1c-d165-45e4-9a3e-1cb48f44bf50",
                 "6bd22b70-2ca3-49e7-84e3-d1000559e8ec"
@@ -52,7 +54,7 @@
           },
           {
             "position": {
-              "x": 210,
+              "x": 100,
               "y": 275
             },
             "size": {
@@ -71,6 +73,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -154,7 +157,6 @@
               ]
             },
             "id": "1e0c8b1c-d165-45e4-9a3e-1cb48f44bf50",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "E1 Personal de la clinica",
@@ -169,7 +171,7 @@
           },
           {
             "position": {
-              "x": 630,
+              "x": 650,
               "y": 210
             },
             "size": {
@@ -188,6 +190,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -271,7 +274,6 @@
               ]
             },
             "id": "6bd22b70-2ca3-49e7-84e3-d1000559e8ec",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "P0 Sistema de Clinicas",
@@ -289,7 +291,7 @@
           },
           {
             "position": {
-              "x": 1150,
+              "x": 1270,
               "y": 265
             },
             "size": {
@@ -308,6 +310,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -391,7 +394,6 @@
               ]
             },
             "id": "a401a54e-7961-4cb6-805e-ba04eb00f822",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "E2 Servidor de correo SMTP",
@@ -497,7 +499,7 @@
             },
             "vertices": [
               {
-                "x": 480,
+                "x": 370,
                 "y": 420
               }
             ]
@@ -533,15 +535,17 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "c9a58e69-6c99-4bd6-8f8a-46e6428cc8f5"
+              ]
             },
             "labels": [
               "DF0.3 Correo con password temporal"
             ],
             "id": "802b1e17-9acb-4798-8968-d7c5b7b01918",
             "source": {
-              "x": 790,
-              "y": 320
+              "cell": "6bd22b70-2ca3-49e7-84e3-d1000559e8ec",
+              "port": "9e157093-53d1-4fe7-9f13-9c8626ef09b4"
             },
             "target": {
               "cell": "a401a54e-7961-4cb6-805e-ba04eb00f822",
