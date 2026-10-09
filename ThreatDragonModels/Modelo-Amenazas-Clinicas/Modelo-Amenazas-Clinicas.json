@@ -1,0 +1,49 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-10-08",
+  "summary": {
+    "title": "Modelo-Amenazas-Clinicas",
+    "owner": "Carlos Rodas",
+    "description": "El Sistema de Clínicas es una aplicación web de uso interno que permite gestionar usuarios, pacientes, citas e inventario médico. Está compuesto por un frontend desarrollado en Angular, una API REST en Node.js con Express, acceso a datos mediante Prisma y una base de datos PostgreSQL. La autenticación se realiza mediante tokens JWT y el acceso se controla por seis roles: administrador, médico, auxiliar, secretaria, recepcionista y sistemas. El sistema se despliega en un servidor del cliente, dentro de la red local de la clínica, y no expone un portal a pacientes. Envía contraseñas temporales a los usuarios mediante un servidor de correo SMTP.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Nivel 0 - Contexto",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "el sistema, el personal de la clínica y el servidor de correo."
+      },
+      {
+        "id": 1,
+        "title": "DFD Nivel 1 - Procesos principales",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "almacenes de datos, flujos y fronteras de confianza."
+      },
+      {
+        "id": 2,
+        "title": "DFD Nivel 2 - Autenticación y control de acceso",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Descomposición del proceso de autenticación y control de acceso por rol."
+      }
+    ],
+    "diagramTop": 3,
+    "reviewer": ".",
+    "threatTop": 0
+  }
+}
