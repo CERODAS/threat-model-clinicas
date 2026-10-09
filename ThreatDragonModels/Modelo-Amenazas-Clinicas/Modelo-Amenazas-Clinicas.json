@@ -595,7 +595,8 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "f6452a75-df39-405f-a70c-35036437cad8",
-                "65c052d1-53ad-4b04-befb-c503797057b4"
+                "65c052d1-53ad-4b04-befb-c503797057b4",
+                "0887f3db-b257-4025-b311-7771bb5cd4e7"
               ],
               "containedElements": [
                 "3ac88d29-09e0-4fd8-b0a0-d418fecbd9ef",
@@ -628,7 +629,9 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "f6452a75-df39-405f-a70c-35036437cad8"
+                "f6452a75-df39-405f-a70c-35036437cad8",
+                "0887f3db-b257-4025-b311-7771bb5cd4e7",
+                "0b00a29a-c769-4661-8a8a-a0029d5c62c9"
               ],
               "containedElements": [
                 "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
@@ -704,7 +707,7 @@
           {
             "position": {
               "x": 120,
-              "y": 105.00000000000016
+              "y": 105.00000000000017
             },
             "size": {
               "width": 200,
@@ -821,7 +824,7 @@
           {
             "position": {
               "x": 1515,
-              "y": 95.00000000000016
+              "y": 115.00000000000017
             },
             "size": {
               "width": 200,
@@ -938,7 +941,7 @@
           {
             "position": {
               "x": 110,
-              "y": 278.00000000000017
+              "y": 295.00000000000017
             },
             "size": {
               "width": 220,
@@ -1174,8 +1177,8 @@
           },
           {
             "position": {
-              "x": 645,
-              "y": 258.00000000000017
+              "x": 650,
+              "y": 275.00000000000017
             },
             "size": {
               "width": 180,
@@ -1917,6 +1920,55 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "DF4 Solicitudes de pacientes con JWT",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "773578f7-b748-4ecb-bbf6-ab022aa20b3f",
+                "692e0502-eb95-41ba-8add-c13d74c6bd26"
+              ]
+            },
+            "labels": [
+              "DF4 Solicitudes de pacientes con JWT"
+            ],
+            "id": "0887f3db-b257-4025-b311-7771bb5cd4e7",
+            "source": {
+              "cell": "3ac88d29-09e0-4fd8-b0a0-d418fecbd9ef",
+              "port": "bd577cbc-0e75-4771-b00d-71171308884d"
+            },
+            "target": {
+              "cell": "b4c63a4d-c064-49aa-baf3-c57b594a23f6",
+              "port": "fb68a12b-dbf2-471f-9317-9dc2acceac05"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
@@ -1929,6 +1981,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "692e0502-eb95-41ba-8add-c13d74c6bd26",
                 "0c4e96d7-1f13-4445-a9a3-9386d0c0faad"
               ]
             },
@@ -1937,8 +1990,8 @@
             ],
             "id": "0b00a29a-c769-4661-8a8a-a0029d5c62c9",
             "source": {
-              "x": 830,
-              "y": 160
+              "cell": "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
+              "port": "c8f5705f-e818-4664-89ec-3fdb155d0d54"
             },
             "target": {
               "cell": "4219ded0-ca5d-47e7-9673-008a7126fe89",
@@ -1954,6 +2007,52 @@
                 "y": 50
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "ecf381d4-29a5-47c4-8fff-197105bdd53e",
+            "source": {
+              "x": 220,
+              "y": 210
+            },
+            "target": {
+              "x": 522,
+              "y": 485
+            }
           }
         ],
         "description": "almacenes de datos, flujos y fronteras de confianza."
