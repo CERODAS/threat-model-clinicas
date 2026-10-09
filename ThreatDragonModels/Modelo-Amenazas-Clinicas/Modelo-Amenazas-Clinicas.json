@@ -18,7 +18,543 @@
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 80,
+              "y": 130
+            },
+            "size": {
+              "width": 830,
+              "height": 400
+            },
+            "attrs": {
+              "label": {
+                "text": "B1 Red local de la clinica"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "c9a58e69-6c99-4bd6-8f8a-46e6428cc8f5",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "B1 Red local de la clinica",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "1e0c8b1c-d165-45e4-9a3e-1cb48f44bf50",
+                "6bd22b70-2ca3-49e7-84e3-d1000559e8ec"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 210,
+              "y": 275
+            },
+            "size": {
+              "width": 190,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "E1 Personal de la clinica"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0b85ceb8-03ed-44d9-a9aa-067ad6267de5"
+                },
+                {
+                  "group": "right",
+                  "id": "211a9a40-2e74-470b-93a6-7f87ef79f1ee"
+                },
+                {
+                  "group": "bottom",
+                  "id": "3e71d5ba-91fb-4b0f-be2e-922447af07bf"
+                },
+                {
+                  "group": "left",
+                  "id": "f67179ec-1471-4c28-bf33-575a417a4a96"
+                }
+              ]
+            },
+            "id": "1e0c8b1c-d165-45e4-9a3e-1cb48f44bf50",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "E1 Personal de la clinica",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 630,
+              "y": 210
+            },
+            "size": {
+              "width": 160,
+              "height": 210
+            },
+            "attrs": {
+              "text": {
+                "text": "P0 Sistema de Clinicas"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "06378d8d-656d-465b-a2c8-b96ebffb0083"
+                },
+                {
+                  "group": "right",
+                  "id": "9e157093-53d1-4fe7-9f13-9c8626ef09b4"
+                },
+                {
+                  "group": "bottom",
+                  "id": "25f05c8f-351f-4200-88a8-03b0225406c2"
+                },
+                {
+                  "group": "left",
+                  "id": "d8342c9f-09b7-4730-9a40-e87f71be3bd7"
+                }
+              ]
+            },
+            "id": "6bd22b70-2ca3-49e7-84e3-d1000559e8ec",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "P0 Sistema de Clinicas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1150,
+              "y": 265
+            },
+            "size": {
+              "width": 210,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "E2 Servidor de correo SMTP"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0b85ceb8-03ed-44d9-a9aa-067ad6267de5"
+                },
+                {
+                  "group": "right",
+                  "id": "211a9a40-2e74-470b-93a6-7f87ef79f1ee"
+                },
+                {
+                  "group": "bottom",
+                  "id": "3e71d5ba-91fb-4b0f-be2e-922447af07bf"
+                },
+                {
+                  "group": "left",
+                  "id": "f67179ec-1471-4c28-bf33-575a417a4a96"
+                }
+              ]
+            },
+            "id": "a401a54e-7961-4cb6-805e-ba04eb00f822",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "E2 Servidor de correo SMTP",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF0.1 Credenciales y datos operativos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "DF0.1 Credenciales y datos operativos"
+            ],
+            "id": "cae6d99a-9359-4a98-a0ca-3b4d181a6c50",
+            "source": {
+              "cell": "1e0c8b1c-d165-45e4-9a3e-1cb48f44bf50",
+              "port": "211a9a40-2e74-470b-93a6-7f87ef79f1ee"
+            },
+            "target": {
+              "cell": "6bd22b70-2ca3-49e7-84e3-d1000559e8ec",
+              "port": "d8342c9f-09b7-4730-9a40-e87f71be3bd7"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF0.2 Informacion y token de sesion",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "DF0.2 Informacion y token de sesion"
+            ],
+            "id": "58527a04-cf24-4e5a-b6c2-64222e61a860",
+            "source": {
+              "cell": "6bd22b70-2ca3-49e7-84e3-d1000559e8ec",
+              "port": "25f05c8f-351f-4200-88a8-03b0225406c2"
+            },
+            "target": {
+              "cell": "1e0c8b1c-d165-45e4-9a3e-1cb48f44bf50",
+              "port": "3e71d5ba-91fb-4b0f-be2e-922447af07bf"
+            },
+            "vertices": [
+              {
+                "x": 480,
+                "y": 420
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF0.3 Correo con password temporal",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "DF0.3 Correo con password temporal"
+            ],
+            "id": "802b1e17-9acb-4798-8968-d7c5b7b01918",
+            "source": {
+              "x": 790,
+              "y": 320
+            },
+            "target": {
+              "cell": "a401a54e-7961-4cb6-805e-ba04eb00f822",
+              "port": "f67179ec-1471-4c28-bf33-575a417a4a96"
+            },
+            "vertices": [
+              {
+                "x": 1040,
+                "y": 320
+              }
+            ]
+          }
+        ],
         "description": "el sistema, el personal de la clínica y el servidor de correo."
       },
       {
