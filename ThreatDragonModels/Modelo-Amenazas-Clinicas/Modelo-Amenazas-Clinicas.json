@@ -2530,7 +2530,8 @@
                 "7ddb1814-1ede-4376-880f-568c175d424f",
                 "97b5bc57-c6e9-4e3c-82f4-b9da386d766c",
                 "7a9651d2-eacf-469f-844a-0de658d9ad04",
-                "2539caaa-3b66-4aad-a354-db6c84dd727c"
+                "2539caaa-3b66-4aad-a354-db6c84dd727c",
+                "a42e92f4-6dd7-4758-ad7e-1a4ea6bdece3"
               ],
               "containedElements": [
                 "053f2ffb-383f-4759-9a3d-beb36595b396",
@@ -2568,7 +2569,8 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "6ad97890-88bd-438c-816f-60299802e83f",
-                "7a9651d2-eacf-469f-844a-0de658d9ad04"
+                "7a9651d2-eacf-469f-844a-0de658d9ad04",
+                "a42e92f4-6dd7-4758-ad7e-1a4ea6bdece3"
               ],
               "containedElements": [
                 "597969fe-77e6-49d2-b7fd-ddf81771666b"
@@ -4050,6 +4052,61 @@
               {
                 "x": 270,
                 "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF2.8 Registro de usuario",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f7ac952f-2356-4d99-b7bf-68637721f7a6",
+                "dd89a5d1-2fb3-4441-a5b8-ec0766c76a28"
+              ]
+            },
+            "labels": [
+              "DF2.8 Registro de usuario"
+            ],
+            "id": "a42e92f4-6dd7-4758-ad7e-1a4ea6bdece3",
+            "source": {
+              "cell": "64819fd1-8c0a-468a-b540-dc4b0ef42442",
+              "port": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+            },
+            "target": {
+              "cell": "597969fe-77e6-49d2-b7fd-ddf81771666b",
+              "port": "db647ad3-19be-447f-ac1c-4274bf43c465"
+            },
+            "vertices": [
+              {
+                "x": 850,
+                "y": 490
               }
             ]
           }
