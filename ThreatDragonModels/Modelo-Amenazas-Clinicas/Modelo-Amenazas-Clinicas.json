@@ -2407,6 +2407,52 @@
                 "y": 380
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF12 Respaldos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "DF12 Respaldos"
+            ],
+            "id": "9a45bc6d-f8f2-4acc-9cdf-ccbb873b1708",
+            "source": {
+              "x": 1580,
+              "y": 410
+            },
+            "target": {
+              "x": 1680,
+              "y": 510
+            }
           }
         ],
         "description": "almacenes de datos, flujos y fronteras de confianza."
