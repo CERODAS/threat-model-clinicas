@@ -1943,7 +1943,17 @@
             "target": {
               "cell": "4219ded0-ca5d-47e7-9673-008a7126fe89",
               "port": "2f42db7f-08eb-4fba-bbc0-2ce81a0b6c7c"
-            }
+            },
+            "vertices": [
+              {
+                "x": 1010,
+                "y": 10
+              },
+              {
+                "x": 1370,
+                "y": 50
+              }
+            ]
           }
         ],
         "description": "almacenes de datos, flujos y fronteras de confianza."
