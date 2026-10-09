@@ -2490,7 +2490,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "1959b5e3-1b2a-42b2-a292-3300e978ea5b"
+                "1959b5e3-1b2a-42b2-a292-3300e978ea5b",
+                "7ddb1814-1ede-4376-880f-568c175d424f"
               ],
               "containedElements": [
                 "7a3b894c-b009-4706-8d4b-0b0277e5063e"
@@ -2523,7 +2524,8 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "1959b5e3-1b2a-42b2-a292-3300e978ea5b",
-                "6ad97890-88bd-438c-816f-60299802e83f"
+                "6ad97890-88bd-438c-816f-60299802e83f",
+                "7ddb1814-1ede-4376-880f-568c175d424f"
               ],
               "containedElements": [
                 "053f2ffb-383f-4759-9a3d-beb36595b396",
@@ -3830,6 +3832,55 @@
                 "y": 240
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF2.4 JWT firmado",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "4f1de292-4b49-4dbd-a0e2-a5eee4934bce",
+                "f7ac952f-2356-4d99-b7bf-68637721f7a6"
+              ]
+            },
+            "labels": [
+              "DF2.4 JWT firmado"
+            ],
+            "id": "7ddb1814-1ede-4376-880f-568c175d424f",
+            "source": {
+              "cell": "c9673639-82e8-4399-b3c3-7fa6b18a6c24",
+              "port": "5312fa15-f8e4-426d-babb-a524f23d967b"
+            },
+            "target": {
+              "cell": "7a3b894c-b009-4706-8d4b-0b0277e5063e",
+              "port": "6c79e384-d73a-4ea5-a4d1-7db4b1a25461"
+            }
           }
         ],
         "description": "Descomposición del proceso de autenticación y control de acceso por rol."
