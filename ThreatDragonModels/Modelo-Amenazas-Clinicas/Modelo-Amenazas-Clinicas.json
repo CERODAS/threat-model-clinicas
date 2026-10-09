@@ -2531,7 +2531,8 @@
                 "97b5bc57-c6e9-4e3c-82f4-b9da386d766c",
                 "7a9651d2-eacf-469f-844a-0de658d9ad04",
                 "2539caaa-3b66-4aad-a354-db6c84dd727c",
-                "a42e92f4-6dd7-4758-ad7e-1a4ea6bdece3"
+                "a42e92f4-6dd7-4758-ad7e-1a4ea6bdece3",
+                "23d2d6f1-f50e-4557-baa2-f7126f02053d"
               ],
               "containedElements": [
                 "053f2ffb-383f-4759-9a3d-beb36595b396",
@@ -2601,7 +2602,9 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
+              "crossingFlows": [
+                "23d2d6f1-f50e-4557-baa2-f7126f02053d"
+              ],
               "containedElements": [
                 "b97c0ab8-fdb8-414a-abff-f7dc5a05d582"
               ]
@@ -4159,6 +4162,61 @@
               {
                 "x": 800,
                 "y": 740
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF2.10 Correo con clave temporal",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f7ac952f-2356-4d99-b7bf-68637721f7a6",
+                "500686cc-b556-4369-b23f-ae6c115749d0"
+              ]
+            },
+            "labels": [
+              "DF2.10 Correo con clave temporal"
+            ],
+            "id": "23d2d6f1-f50e-4557-baa2-f7126f02053d",
+            "source": {
+              "cell": "83681c06-3f46-4bdc-a5bc-31423a74c594",
+              "port": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+            },
+            "target": {
+              "cell": "b97c0ab8-fdb8-414a-abff-f7dc5a05d582",
+              "port": "80998bbf-f8c7-4cd0-b980-394f5e3afaeb"
+            },
+            "vertices": [
+              {
+                "x": 1150,
+                "y": 680
               }
             ]
           }
