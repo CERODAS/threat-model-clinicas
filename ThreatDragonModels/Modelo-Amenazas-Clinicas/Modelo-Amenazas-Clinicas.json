@@ -2464,7 +2464,1322 @@
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 50,
+              "y": 50
+            },
+            "size": {
+              "width": 250,
+              "height": 420
+            },
+            "attrs": {
+              "label": {
+                "text": "B1 Estacion del usuario"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "4f1de292-4b49-4dbd-a0e2-a5eee4934bce",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "B1 Estacion del usuario",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "1959b5e3-1b2a-42b2-a292-3300e978ea5b"
+              ],
+              "containedElements": [
+                "7a3b894c-b009-4706-8d4b-0b0277e5063e"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 450,
+              "y": 50
+            },
+            "size": {
+              "width": 350,
+              "height": 1110
+            },
+            "attrs": {
+              "label": {
+                "text": "B2 Servidor de aplicacion"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "f7ac952f-2356-4d99-b7bf-68637721f7a6",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "B2 Servidor de aplicacion",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "1959b5e3-1b2a-42b2-a292-3300e978ea5b",
+                "6ad97890-88bd-438c-816f-60299802e83f"
+              ],
+              "containedElements": [
+                "053f2ffb-383f-4759-9a3d-beb36595b396",
+                "c9673639-82e8-4399-b3c3-7fa6b18a6c24",
+                "38d5f51b-b209-4433-8353-18b7bffd40cb",
+                "64819fd1-8c0a-468a-b540-dc4b0ef42442",
+                "83681c06-3f46-4bdc-a5bc-31423a74c594",
+                "6fc3b005-740e-4009-b647-a803c1d49ce3"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 951,
+              "y": 50.00000000000048
+            },
+            "size": {
+              "width": 280,
+              "height": 390
+            },
+            "attrs": {
+              "label": {
+                "text": "B3 Capa de datos"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "dd89a5d1-2fb3-4441-a5b8-ec0766c76a28",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "B3 Capa de datos",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "6ad97890-88bd-438c-816f-60299802e83f"
+              ],
+              "containedElements": [
+                "597969fe-77e6-49d2-b7fd-ddf81771666b"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 1455,
+              "y": 50
+            },
+            "size": {
+              "width": 260,
+              "height": 380
+            },
+            "attrs": {
+              "label": {
+                "text": "B4 Servicio externo"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "500686cc-b556-4369-b23f-ae6c115749d0",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "B4 Servicio externo",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "b97c0ab8-fdb8-414a-abff-f7dc5a05d582"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 115,
+              "y": 115
+            },
+            "size": {
+              "width": 120,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "E1 Personal de\n la clinica"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "bceb4851-4530-4f22-9611-595d01ebf050"
+                },
+                {
+                  "group": "right",
+                  "id": "620653c8-a716-4645-9027-66a0ac14b987"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6c79e384-d73a-4ea5-a4d1-7db4b1a25461"
+                },
+                {
+                  "group": "left",
+                  "id": "80998bbf-f8c7-4cd0-b980-394f5e3afaeb"
+                }
+              ]
+            },
+            "id": "7a3b894c-b009-4706-8d4b-0b0277e5063e",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "E1 Personal de\n la clinica",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1510,
+              "y": 135
+            },
+            "size": {
+              "width": 150,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "E2 Servidor SMTP"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "bceb4851-4530-4f22-9611-595d01ebf050"
+                },
+                {
+                  "group": "right",
+                  "id": "620653c8-a716-4645-9027-66a0ac14b987"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6c79e384-d73a-4ea5-a4d1-7db4b1a25461"
+                },
+                {
+                  "group": "left",
+                  "id": "80998bbf-f8c7-4cd0-b980-394f5e3afaeb"
+                }
+              ]
+            },
+            "id": "b97c0ab8-fdb8-414a-abff-f7dc5a05d582",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "E2 Servidor SMTP",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 560,
+              "y": 90
+            },
+            "size": {
+              "width": 130,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "P1.1 Validar \ncredenciales"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1aae33a8-2df6-4781-b5c9-a8b7565c532b"
+                },
+                {
+                  "group": "right",
+                  "id": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "32f79ec2-b388-4182-b249-4a1803c45e38"
+                },
+                {
+                  "group": "left",
+                  "id": "5312fa15-f8e4-426d-babb-a524f23d967b"
+                }
+              ]
+            },
+            "id": "053f2ffb-383f-4759-9a3d-beb36595b396",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "P1.1 Validar \ncredenciales",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 560,
+              "y": 235
+            },
+            "size": {
+              "width": 130,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "P1.2 Emitir \ntoken JWT"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1aae33a8-2df6-4781-b5c9-a8b7565c532b"
+                },
+                {
+                  "group": "right",
+                  "id": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "32f79ec2-b388-4182-b249-4a1803c45e38"
+                },
+                {
+                  "group": "left",
+                  "id": "5312fa15-f8e4-426d-babb-a524f23d967b"
+                }
+              ]
+            },
+            "id": "c9673639-82e8-4399-b3c3-7fa6b18a6c24",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Process",
+              "name": "P1.2 Emitir \ntoken JWT",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 555,
+              "y": 400
+            },
+            "size": {
+              "width": 140,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "P1.3 Verificar JWT \ny rol (RBAC)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1aae33a8-2df6-4781-b5c9-a8b7565c532b"
+                },
+                {
+                  "group": "right",
+                  "id": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "32f79ec2-b388-4182-b249-4a1803c45e38"
+                },
+                {
+                  "group": "left",
+                  "id": "5312fa15-f8e4-426d-babb-a524f23d967b"
+                }
+              ]
+            },
+            "id": "38d5f51b-b209-4433-8353-18b7bffd40cb",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "P1.3 Verificar JWT \ny rol (RBAC)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 545,
+              "y": 575
+            },
+            "size": {
+              "width": 160,
+              "height": 150
+            },
+            "attrs": {
+              "text": {
+                "text": "P1.4 Alta y administra\ncion de usuarios"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1aae33a8-2df6-4781-b5c9-a8b7565c532b"
+                },
+                {
+                  "group": "right",
+                  "id": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "32f79ec2-b388-4182-b249-4a1803c45e38"
+                },
+                {
+                  "group": "left",
+                  "id": "5312fa15-f8e4-426d-babb-a524f23d967b"
+                }
+              ]
+            },
+            "id": "64819fd1-8c0a-468a-b540-dc4b0ef42442",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Process",
+              "name": "P1.4 Alta y administra\ncion de usuarios",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 545,
+              "y": 765
+            },
+            "size": {
+              "width": 160,
+              "height": 150
+            },
+            "attrs": {
+              "text": {
+                "text": "P1.5 Generar y enviar\n password temporal"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1aae33a8-2df6-4781-b5c9-a8b7565c532b"
+                },
+                {
+                  "group": "right",
+                  "id": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "32f79ec2-b388-4182-b249-4a1803c45e38"
+                },
+                {
+                  "group": "left",
+                  "id": "5312fa15-f8e4-426d-babb-a524f23d967b"
+                }
+              ]
+            },
+            "id": "83681c06-3f46-4bdc-a5bc-31423a74c594",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Process",
+              "name": "P1.5 Generar y enviar\n password temporal",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 550,
+              "y": 970
+            },
+            "size": {
+              "width": 150,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "P1.6 Cambio \nde password"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1aae33a8-2df6-4781-b5c9-a8b7565c532b"
+                },
+                {
+                  "group": "right",
+                  "id": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "32f79ec2-b388-4182-b249-4a1803c45e38"
+                },
+                {
+                  "group": "left",
+                  "id": "5312fa15-f8e4-426d-babb-a524f23d967b"
+                }
+              ]
+            },
+            "id": "6fc3b005-740e-4009-b647-a803c1d49ce3",
+            "zIndex": 8,
+            "data": {
+              "type": "tm.Process",
+              "name": "P1.6 Cambio \nde password",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 980,
+              "y": 130
+            },
+            "size": {
+              "width": 210,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "D1.1 Tabla de usuarios\n (hash, rol, estado)"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3ded6466-851c-4183-b5a2-abd7b873c337"
+                },
+                {
+                  "group": "right",
+                  "id": "ea93af0c-0230-4209-99bb-0e126ac2ea48"
+                },
+                {
+                  "group": "bottom",
+                  "id": "db647ad3-19be-447f-ac1c-4274bf43c465"
+                },
+                {
+                  "group": "left",
+                  "id": "4d4648a4-b7a4-4910-a794-bb0cce237aa4"
+                }
+              ]
+            },
+            "id": "597969fe-77e6-49d2-b7fd-ddf81771666b",
+            "zIndex": 9,
+            "data": {
+              "type": "tm.Store",
+              "name": "D1.1 Tabla de usuarios\n (hash, rol, estado)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF2.1 Usuario y password",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "4f1de292-4b49-4dbd-a0e2-a5eee4934bce",
+                "f7ac952f-2356-4d99-b7bf-68637721f7a6"
+              ]
+            },
+            "labels": [
+              "DF2.1 Usuario y password"
+            ],
+            "id": "1959b5e3-1b2a-42b2-a292-3300e978ea5b",
+            "source": {
+              "cell": "7a3b894c-b009-4706-8d4b-0b0277e5063e",
+              "port": "620653c8-a716-4645-9027-66a0ac14b987"
+            },
+            "target": {
+              "cell": "053f2ffb-383f-4759-9a3d-beb36595b396",
+              "port": "5312fa15-f8e4-426d-babb-a524f23d967b"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF2.2 Consulta de hash",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f7ac952f-2356-4d99-b7bf-68637721f7a6",
+                "dd89a5d1-2fb3-4441-a5b8-ec0766c76a28"
+              ]
+            },
+            "labels": [
+              "DF2.2 Consulta de hash"
+            ],
+            "id": "6ad97890-88bd-438c-816f-60299802e83f",
+            "source": {
+              "cell": "053f2ffb-383f-4759-9a3d-beb36595b396",
+              "port": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+            },
+            "target": {
+              "cell": "597969fe-77e6-49d2-b7fd-ddf81771666b",
+              "port": "4d4648a4-b7a4-4910-a794-bb0cce237aa4"
+            },
+            "vertices": [
+              {
+                "x": 880,
+                "y": 150
+              }
+            ]
+          }
+        ],
         "description": "Descomposición del proceso de autenticación y control de acceso por rol."
       }
     ],
