@@ -652,12 +652,12 @@
           },
           {
             "position": {
-              "x": 1200,
-              "y": 60.00000000000017
+              "x": 1229.9999999999977,
+              "y": 60.00000000000114
             },
             "size": {
-              "width": 220,
-              "height": 350
+              "width": 230,
+              "height": 610
             },
             "attrs": {
               "label": {
@@ -1550,7 +1550,7 @@
           },
           {
             "position": {
-              "x": 1240,
+              "x": 1270,
               "y": 110.00000000000017
             },
             "size": {
@@ -1674,8 +1674,8 @@
           },
           {
             "position": {
-              "x": 1235,
-              "y": 278.00000000000017
+              "x": 1269.9999999999977,
+              "y": 518.0000000000002
             },
             "size": {
               "width": 150,
@@ -2236,7 +2236,7 @@
             },
             "vertices": [
               {
-                "x": 1100,
+                "x": 1130,
                 "y": 145
               }
             ]
@@ -2291,8 +2291,8 @@
             },
             "vertices": [
               {
-                "x": 990,
-                "y": 260
+                "x": 1010,
+                "y": 250
               }
             ]
           },
@@ -2346,80 +2346,10 @@
             },
             "vertices": [
               {
-                "x": 1100,
-                "y": 350
+                "x": 1110,
+                "y": 320
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           }
         ],
         "description": "almacenes de datos, flujos y fronteras de confianza."
