@@ -638,7 +638,8 @@
                 "0b00a29a-c769-4661-8a8a-a0029d5c62c9",
                 "d5323ca9-a66f-41bf-a896-8d2cd357dea4",
                 "db52ec0c-7ba2-4341-93de-592b53f37f60",
-                "8bf6df4a-1a3c-497b-b803-fb203ea77d90"
+                "8bf6df4a-1a3c-497b-b803-fb203ea77d90",
+                "f6793b3d-c577-4754-9190-8d15eae422d6"
               ],
               "containedElements": [
                 "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
@@ -673,7 +674,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "8bf6df4a-1a3c-497b-b803-fb203ea77d90"
+                "8bf6df4a-1a3c-497b-b803-fb203ea77d90",
+                "f6793b3d-c577-4754-9190-8d15eae422d6"
               ],
               "containedElements": [
                 "62b8a9e4-b1d5-42e5-af8c-4f0ffd846d3f",
@@ -2234,6 +2236,61 @@
               {
                 "x": 1100,
                 "y": 145
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF9 Datos de pacientes (lectura/escritura)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "692e0502-eb95-41ba-8add-c13d74c6bd26",
+                "67f85556-7665-4a58-bf5e-daedee9360e9"
+              ]
+            },
+            "labels": [
+              "DF9 Datos de pacientes (lectura/escritura)"
+            ],
+            "id": "f6793b3d-c577-4754-9190-8d15eae422d6",
+            "source": {
+              "cell": "b4c63a4d-c064-49aa-baf3-c57b594a23f6",
+              "port": "c8f5705f-e818-4664-89ec-3fdb155d0d54"
+            },
+            "target": {
+              "cell": "62b8a9e4-b1d5-42e5-af8c-4f0ffd846d3f",
+              "port": "bac8c21a-25be-4dc6-a81c-4429707ccf01"
+            },
+            "vertices": [
+              {
+                "x": 990,
+                "y": 260
               }
             ]
           }
