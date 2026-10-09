@@ -4109,6 +4109,58 @@
                 "y": 490
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF2.9 Orden de generar clave temporal",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "DF2.9 Orden de generar clave temporal"
+            ],
+            "id": "eb0c0bad-0b10-4cd6-8c76-01deb2d498f2",
+            "source": {
+              "cell": "64819fd1-8c0a-468a-b540-dc4b0ef42442",
+              "port": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+            },
+            "target": {
+              "cell": "83681c06-3f46-4bdc-a5bc-31423a74c594",
+              "port": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": 740
+              }
+            ]
           }
         ],
         "description": "Descomposición del proceso de autenticación y control de acceso por rol."
