@@ -3778,6 +3778,58 @@
                 "y": 150
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "DF2.3 Usuario validado y rol",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "DF2.3 Usuario validado y rol"
+            ],
+            "id": "828b9870-b42a-4ffb-b24a-03a1939dda7d",
+            "source": {
+              "cell": "053f2ffb-383f-4759-9a3d-beb36595b396",
+              "port": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+            },
+            "target": {
+              "cell": "c9673639-82e8-4399-b3c3-7fa6b18a6c24",
+              "port": "af617dc6-4695-4df1-9085-c579ae5c8ca9"
+            },
+            "vertices": [
+              {
+                "x": 780,
+                "y": 240
+              }
+            ]
           }
         ],
         "description": "Descomposición del proceso de autenticación y control de acceso por rol."
