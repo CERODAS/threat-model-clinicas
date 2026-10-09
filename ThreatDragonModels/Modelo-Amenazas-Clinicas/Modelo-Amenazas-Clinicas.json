@@ -639,7 +639,8 @@
                 "d5323ca9-a66f-41bf-a896-8d2cd357dea4",
                 "db52ec0c-7ba2-4341-93de-592b53f37f60",
                 "8bf6df4a-1a3c-497b-b803-fb203ea77d90",
-                "f6793b3d-c577-4754-9190-8d15eae422d6"
+                "f6793b3d-c577-4754-9190-8d15eae422d6",
+                "4c20ae46-c090-4daa-8eb6-2947c7c48ca5"
               ],
               "containedElements": [
                 "788795ff-9063-4c00-ad3f-c88ebdb10e1e",
@@ -2327,6 +2328,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
+                "692e0502-eb95-41ba-8add-c13d74c6bd26",
                 "67f85556-7665-4a58-bf5e-daedee9360e9"
               ]
             },
@@ -2335,12 +2337,88 @@
             ],
             "id": "4c20ae46-c090-4daa-8eb6-2947c7c48ca5",
             "source": {
-              "x": 910,
-              "y": 400
+              "cell": "74e932da-cb41-4ce0-bbb0-51ca1553d5a3",
+              "port": "c8f5705f-e818-4664-89ec-3fdb155d0d54"
             },
             "target": {
               "cell": "62b8a9e4-b1d5-42e5-af8c-4f0ffd846d3f",
-              "port": "bac8c21a-25be-4dc6-a81c-4429707ccf01"
+              "port": "03f31aed-dbc0-476b-8c03-6072e385f1c5"
+            },
+            "vertices": [
+              {
+                "x": 1100,
+                "y": 350
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ],
